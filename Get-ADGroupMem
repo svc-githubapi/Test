@@ -1,0 +1,1 @@
+Get-ADGroupMember -Identity "<groupname>" | select name | Sort-Object -Property name
